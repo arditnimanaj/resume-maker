@@ -1,5 +1,4 @@
-import { AccordionSummary, Typography, AccordionDetails, TextField } from "@mui/material";
-import Accordion from "@mui/material/Accordion/Accordion";
+import { Accordion, AccordionSummary, Typography, AccordionDetails, TextField } from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useResumeStore } from "../store";
 

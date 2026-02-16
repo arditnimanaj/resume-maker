@@ -1,9 +1,5 @@
-import Accordion from "@mui/material/Accordion/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary/AccordionSummary";
-import Typography from "@mui/material/Typography/Typography";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore/ExpandMore";
-import AccordionDetails from "@mui/material/AccordionDetails/AccordionDetails";
-import TextField from "@mui/material/TextField/TextField";
+import { Accordion, AccordionSummary, Typography, AccordionDetails, TextField } from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { useResumeStore } from "../store";
 
 const PersonalInfoEditor: React.FC = () => {
